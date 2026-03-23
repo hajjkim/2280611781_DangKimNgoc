@@ -16,8 +16,7 @@ Các jobs trong pipeline được thực thi theo thứ tự:
 - Build
 - Test
 - Deploy
-
-
+![Pipeline](SCREENSHOTS/pipeline-jobs.png)
 
 ---
 
@@ -25,4 +24,4 @@ Các jobs trong pipeline được thực thi theo thứ tự:
 Website đã được deploy thành công trên GitHub Pages:  
 https://hajjkim.github.io/2280611781_DangKimNgoc/
 
-![Website](SCREENSHOTS/pipeline-jobs.png)
+![Website](SCREENSHOTS/pages-url.png)
