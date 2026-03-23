@@ -17,7 +17,7 @@ Các jobs trong pipeline được thực thi theo thứ tự:
 - Test
 - Deploy
 
-![Jobs](SCREENSHOTS/pages-url.png)
+
 
 ---
 
