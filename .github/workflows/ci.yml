@@ -1,0 +1,21 @@
+name: CI on Pull Request
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  ci-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Check files
+        run: |
+          test -f public/index.html
+          test -f public/styles.css
+          test -f public/js/main.js
+
+      - name: CI passed
+        run: echo "CI passed on pull request"
