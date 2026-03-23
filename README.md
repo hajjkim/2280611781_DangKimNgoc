@@ -1,21 +1,28 @@
 # 1. Pipeline
 Pipeline đã chạy thành công với đầy đủ các stage:
 
-Build
-Test
-Deploy
+Build  
+Test  
+Deploy  
+
 Tất cả jobs đều passed.
-![alt text](pipeline-success.png)
+
+![Pipeline](SCREENSHOTS/pipeline-success.png)
+
+---
 
 # 2. Chi tiết Jobs
 Các jobs trong pipeline được thực thi theo thứ tự:
 - Build
 - Test
 - Deploy
-![alt text](pipeline-jobs.png)
+
+![Jobs](SCREENSHOTS/pipeline-jobs.png)
+
+---
 
 # 3. Website đã deploy
-Website đã được deploy thành công trên GitHub Pages: 
+Website đã được deploy thành công trên GitHub Pages:  
 https://hajjkim.github.io/2280611781_DangKimNgoc/
 
-![alt text](pages-url.png)
+![Website](SCREENSHOTS/pages-url.png)
